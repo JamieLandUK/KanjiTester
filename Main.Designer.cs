@@ -40,6 +40,7 @@
             this.lblReadings = new System.Windows.Forms.Label();
             this.btnJisho = new System.Windows.Forms.Button();
             this.btnLang = new System.Windows.Forms.Button();
+            this.btnAddKanji = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReveal
@@ -162,11 +163,22 @@
             this.btnLang.UseVisualStyleBackColor = true;
             this.btnLang.Click += new System.EventHandler(this.btnLang_Click);
             // 
+            // btnAddKanji
+            // 
+            this.btnAddKanji.Location = new System.Drawing.Point(80, 12);
+            this.btnAddKanji.Name = "btnAddKanji";
+            this.btnAddKanji.Size = new System.Drawing.Size(82, 29);
+            this.btnAddKanji.TabIndex = 12;
+            this.btnAddKanji.Text = "Add Kanji";
+            this.btnAddKanji.UseVisualStyleBackColor = true;
+            this.btnAddKanji.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 339);
+            this.Controls.Add(this.btnAddKanji);
             this.Controls.Add(this.btnLang);
             this.Controls.Add(this.btnJisho);
             this.Controls.Add(this.lblReadings);
@@ -201,6 +213,7 @@
         private System.Windows.Forms.Label lblReadings;
         private System.Windows.Forms.Button btnJisho;
         private System.Windows.Forms.Button btnLang;
+        private System.Windows.Forms.Button btnAddKanji;
     }
 }
 

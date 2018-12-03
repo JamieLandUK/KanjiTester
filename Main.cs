@@ -16,7 +16,7 @@ namespace KanjiTester
         bool JP_LANG = false;
 
         int CURRENT_RANDOM;
-        int PREVIOUS_RANDOM;
+        List<int> PREVIOUS_RANDOM = new List<int>();
         List<Kanji> kanji = new List<Kanji>();
 
         public Main()
@@ -76,7 +76,7 @@ namespace KanjiTester
 
             Random rn = new Random();
             CURRENT_RANDOM = rn.Next(0, kanji.Count);
-            PREVIOUS_RANDOM = CURRENT_RANDOM;
+            PREVIOUS_RANDOM.Add(CURRENT_RANDOM);
             Kanji chosen = kanji[CURRENT_RANDOM];
             UpdateKanji(chosen);
             
@@ -105,10 +105,16 @@ namespace KanjiTester
             while (true)
             {
                 CURRENT_RANDOM = rn.Next(0, kanji.Count);
-                if (CURRENT_RANDOM != PREVIOUS_RANDOM)
+                if (!PREVIOUS_RANDOM.Contains(CURRENT_RANDOM))
                 {
-                    PREVIOUS_RANDOM = CURRENT_RANDOM;
+                    PREVIOUS_RANDOM.Add(CURRENT_RANDOM);
                     break;
+                }
+                // If the list already has more than 2/3rds of the total amount of kanji
+                else if (PREVIOUS_RANDOM.Count > (kanji.Count / 3 * 2))
+                {
+                    // Reset the list.
+                    PREVIOUS_RANDOM.Clear();
                 }
             }
 
@@ -125,6 +131,7 @@ namespace KanjiTester
                 btnNext.Text = "Next";
                 btnJisho.Text = "See on Jisho.org!";
                 btnReveal.Text = "Reveal";
+                btnAddKanji.Text = "Add kanji";
 
                 lblMeaning.Text = "Meaning:";
                 lblMeaning.Location = new Point(10, 68);
@@ -143,6 +150,7 @@ namespace KanjiTester
                 btnNext.Text = "次へ";
                 btnJisho.Text = "JISHOで見る";
                 btnReveal.Text = "漏らす";
+                btnAddKanji.Text = "漢字を加える";
 
                 lblMeaning.Text = "意味：";
                 lblMeaning.Location = new Point(31, 68);
@@ -153,6 +161,11 @@ namespace KanjiTester
                 lblOnyomi.Text = "音読み：";
                 lblOnyomi.Location = new Point(18, 177);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

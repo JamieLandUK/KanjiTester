@@ -18,3 +18,4 @@ C:\Users\me\Documents\GitHub\KanjiTester\obj\Debug\KanjiTester.csproj.GenerateRe
 C:\Users\me\Documents\GitHub\KanjiTester\obj\Debug\KanjiTester.csproj.CoreCompileInputs.cache
 C:\Users\me\Documents\GitHub\KanjiTester\obj\Debug\KanjiTester.exe
 C:\Users\me\Documents\GitHub\KanjiTester\obj\Debug\KanjiTester.pdb
+C:\Users\me\Documents\GitHub\KanjiTester\obj\Debug\KanjiTester.Addkanji.resources

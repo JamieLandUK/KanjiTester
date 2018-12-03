@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Addkanji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Addkanji.Designer.cs">
+      <DependentUpon>Addkanji.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kanji.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Addkanji.resx">
+      <DependentUpon>Addkanji.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
