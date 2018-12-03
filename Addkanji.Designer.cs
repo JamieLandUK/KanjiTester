@@ -56,7 +56,7 @@
             // 
             this.lblKanji.AutoSize = true;
             this.lblKanji.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblKanji.Location = new System.Drawing.Point(47, 80);
+            this.lblKanji.Location = new System.Drawing.Point(47, 68);
             this.lblKanji.Name = "lblKanji";
             this.lblKanji.Size = new System.Drawing.Size(46, 19);
             this.lblKanji.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             this.lblMeaning.AutoSize = true;
             this.lblMeaning.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblMeaning.Location = new System.Drawing.Point(26, 112);
+            this.lblMeaning.Location = new System.Drawing.Point(26, 98);
             this.lblMeaning.Name = "lblMeaning";
             this.lblMeaning.Size = new System.Drawing.Size(68, 19);
             this.lblMeaning.TabIndex = 2;
@@ -105,7 +105,7 @@
             // txbKanji
             // 
             this.txbKanji.Font = new System.Drawing.Font("Noto Sans CJK JP Regular", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbKanji.Location = new System.Drawing.Point(99, 77);
+            this.txbKanji.Location = new System.Drawing.Point(99, 64);
             this.txbKanji.Name = "txbKanji";
             this.txbKanji.Size = new System.Drawing.Size(42, 27);
             this.txbKanji.TabIndex = 11;
@@ -114,7 +114,7 @@
             // txbMeaning
             // 
             this.txbMeaning.Font = new System.Drawing.Font("Noto Sans CJK JP Regular", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbMeaning.Location = new System.Drawing.Point(99, 109);
+            this.txbMeaning.Location = new System.Drawing.Point(99, 96);
             this.txbMeaning.Name = "txbMeaning";
             this.txbMeaning.Size = new System.Drawing.Size(179, 27);
             this.txbMeaning.TabIndex = 12;
