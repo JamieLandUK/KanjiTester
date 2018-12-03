@@ -11,15 +11,17 @@ using System.IO;
 
 namespace KanjiTester
 {
-    public partial class Main : Form
+    public partial class MainForm : Form
     {
-        bool JP_LANG = false;
+        public static bool JP_LANG { get; set; } = false;
 
         int CURRENT_RANDOM;
         List<int> PREVIOUS_RANDOM = new List<int>();
         List<Kanji> kanji = new List<Kanji>();
 
-        public Main()
+        public static int NUM_FORMS_OPEN { get; set; } = 0;
+
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -163,9 +165,16 @@ namespace KanjiTester
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAddKanji_Click(object sender, EventArgs e)
         {
+            if (NUM_FORMS_OPEN < 1)
+            {
+                NUM_FORMS_OPEN++;
+                Addkanji add_kanji_form = new Addkanji();
 
+                add_kanji_form.Show();
+            }
         }
+
     }
 }

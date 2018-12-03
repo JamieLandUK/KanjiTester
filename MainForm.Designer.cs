@@ -1,6 +1,6 @@
 ﻿namespace KanjiTester
 {
-    partial class Main
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -171,9 +171,9 @@
             this.btnAddKanji.TabIndex = 12;
             this.btnAddKanji.Text = "Add Kanji";
             this.btnAddKanji.UseVisualStyleBackColor = true;
-            this.btnAddKanji.Click += new System.EventHandler(this.button1_Click);
+            this.btnAddKanji.Click += new System.EventHandler(this.btnAddKanji_Click);
             // 
-            // Main
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,7 +191,8 @@
             this.Controls.Add(this.lblKanji);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnReveal);
-            this.Name = "Main";
+            this.MaximizeBox = false;
+            this.Name = "MainForm";
             this.Text = "Kanji Tester";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
