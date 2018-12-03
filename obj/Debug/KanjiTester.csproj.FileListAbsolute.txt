@@ -2,9 +2,9 @@ C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\bin\Debug\KanjiTester.ex
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\bin\Debug\KanjiTester.exe
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\bin\Debug\KanjiTester.pdb
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.csprojAssemblyReference.cache
-C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.Form1.resources
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.Properties.Resources.resources
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.csproj.GenerateResource.cache
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.exe
 C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.pdb
+C:\Users\Owner\Documents\GitHub\KanjiTester\KanjiTester\obj\Debug\KanjiTester.Main.resources
