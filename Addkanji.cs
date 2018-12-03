@@ -68,7 +68,7 @@ namespace KanjiTester
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writer = new StreamWriter(@"Kanji.txt", false, Encoding.Unicode))
+            using (StreamWriter writer = new StreamWriter(@"Kanji.txt", true, Encoding.Unicode))
             {
                 writer.WriteLine("{0},{1},{2},{3}",
                     txbKanji.Text, txbMeaning.Text, txbKunyomi.Text, txbOnyomi.Text);
