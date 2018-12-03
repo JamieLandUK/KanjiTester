@@ -134,6 +134,7 @@ namespace KanjiTester
                 btnJisho.Text = "See on Jisho.org!";
                 btnReveal.Text = "Reveal";
                 btnAddKanji.Text = "Add kanji";
+                btnUpdate.Text = "Update list";
 
                 lblMeaning.Text = "Meaning:";
                 lblMeaning.Location = new Point(10, 68);
@@ -150,9 +151,10 @@ namespace KanjiTester
 
                 btnLang.Text = "English";
                 btnNext.Text = "次へ";
-                btnJisho.Text = "JISHOで見る";
-                btnReveal.Text = "漏らす";
+                btnJisho.Text = "Jisho.orgで見る";
+                btnReveal.Text = "示す";
                 btnAddKanji.Text = "漢字を加える";
+                btnUpdate.Text = "リストをアプデする";
 
                 lblMeaning.Text = "意味：";
                 lblMeaning.Location = new Point(31, 68);
@@ -176,5 +178,32 @@ namespace KanjiTester
             }
         }
 
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            kanji.Clear();
+
+            using (StreamReader reader = new StreamReader(@"Kanji.txt"))
+            {
+                while (!reader.EndOfStream)
+                {
+                    var line = reader.ReadLine();
+                    var values = line.Split(',');
+
+                    if (values[0] == "Kanji")
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        kanji.Add(new Kanji(
+                            Convert.ToChar(values[0]),
+                            values[1],
+                            values[2],
+                            values[3]
+                            ));
+                    }
+                }
+            }
+        }
     }
 }

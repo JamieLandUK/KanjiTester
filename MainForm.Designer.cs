@@ -41,6 +41,7 @@
             this.btnJisho = new System.Windows.Forms.Button();
             this.btnLang = new System.Windows.Forms.Button();
             this.btnAddKanji = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnReveal
@@ -67,10 +68,10 @@
             // lblKanji
             // 
             this.lblKanji.AutoSize = true;
-            this.lblKanji.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 128.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.lblKanji.Location = new System.Drawing.Point(232, -12);
+            this.lblKanji.Font = new System.Drawing.Font("KanjiStrokeOrders", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKanji.Location = new System.Drawing.Point(227, 13);
             this.lblKanji.Name = "lblKanji";
-            this.lblKanji.Size = new System.Drawing.Size(278, 253);
+            this.lblKanji.Size = new System.Drawing.Size(285, 228);
             this.lblKanji.TabIndex = 2;
             this.lblKanji.Text = "例";
             this.lblKanji.Visible = false;
@@ -173,11 +174,22 @@
             this.btnAddKanji.UseVisualStyleBackColor = true;
             this.btnAddKanji.Click += new System.EventHandler(this.btnAddKanji_Click);
             // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(168, 12);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(99, 29);
+            this.btnUpdate.TabIndex = 13;
+            this.btnUpdate.Text = "Update list";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 339);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnAddKanji);
             this.Controls.Add(this.btnLang);
             this.Controls.Add(this.btnJisho);
@@ -215,6 +227,7 @@
         private System.Windows.Forms.Button btnJisho;
         private System.Windows.Forms.Button btnLang;
         private System.Windows.Forms.Button btnAddKanji;
+        private System.Windows.Forms.Button btnUpdate;
     }
 }
 

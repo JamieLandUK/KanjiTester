@@ -107,7 +107,7 @@
             this.txbKanji.Font = new System.Drawing.Font("Noto Sans CJK JP Regular", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbKanji.Location = new System.Drawing.Point(99, 64);
             this.txbKanji.Name = "txbKanji";
-            this.txbKanji.Size = new System.Drawing.Size(42, 27);
+            this.txbKanji.Size = new System.Drawing.Size(77, 27);
             this.txbKanji.TabIndex = 11;
             this.txbKanji.TextChanged += new System.EventHandler(this.txbKanji_TextChanged);
             // 
