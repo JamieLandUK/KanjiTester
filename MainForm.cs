@@ -45,7 +45,7 @@ namespace KanjiTester
                     var test2 = test1.Split(',');
                     if (test2[0] != "Kanji")
                     {
-                        Console.WriteLine("The .csv file is incorrect.");
+                        MessageBox.Show("The .csv is incorrect.", "Error");
                         Environment.Exit(1);
                     }
 
@@ -72,7 +72,7 @@ namespace KanjiTester
             }
             catch
             {
-                Console.WriteLine("Kanji.csv has not been found.");
+                MessageBox.Show("Kanji.csv has not been found.", "Error");
                 Environment.Exit(1);
             }
 
