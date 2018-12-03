@@ -13,6 +13,8 @@ namespace KanjiTester
 {
     public partial class Main : Form
     {
+        bool JP_LANG = false;
+
         int CURRENT_RANDOM;
         int PREVIOUS_RANDOM;
         List<Kanji> kanji = new List<Kanji>();
@@ -115,7 +117,42 @@ namespace KanjiTester
 
         private void btnLang_Click(object sender, EventArgs e)
         {
+            if (JP_LANG)
+            {
+                JP_LANG = false;
 
+                btnLang.Text = "日本語";
+                btnNext.Text = "Next";
+                btnJisho.Text = "See on Jisho.org!";
+                btnReveal.Text = "Reveal";
+
+                lblMeaning.Text = "Meaning:";
+                lblMeaning.Location = new Point(10, 68);
+                lblReadings.Text = "Readings";
+                lblReadings.Location = new Point(63, 111);
+                lblKunyomi.Text = "Kun'yomi:";
+                lblKunyomi.Location = new Point(6, 145);
+                lblOnyomi.Text = "On'yomi:";
+                lblOnyomi.Location = new Point(12, 177);
+            }
+            else
+            {
+                JP_LANG = true;
+
+                btnLang.Text = "English";
+                btnNext.Text = "次へ";
+                btnJisho.Text = "JISHOで見る";
+                btnReveal.Text = "漏らす";
+
+                lblMeaning.Text = "意味：";
+                lblMeaning.Location = new Point(31, 68);
+                lblReadings.Text = "読み方";
+                lblReadings.Location = new Point(69, 111);
+                lblKunyomi.Text = "訓読み：";
+                lblKunyomi.Location = new Point(18, 145);
+                lblOnyomi.Text = "音読み：";
+                lblOnyomi.Location = new Point(18, 177);
+            }
         }
     }
 }

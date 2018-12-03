@@ -77,30 +77,30 @@
             // lblMeaning
             // 
             this.lblMeaning.AutoSize = true;
-            this.lblMeaning.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeaning.Location = new System.Drawing.Point(8, 68);
+            this.lblMeaning.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeaning.Location = new System.Drawing.Point(10, 68);
             this.lblMeaning.Name = "lblMeaning";
-            this.lblMeaning.Size = new System.Drawing.Size(71, 16);
+            this.lblMeaning.Size = new System.Drawing.Size(68, 19);
             this.lblMeaning.TabIndex = 3;
             this.lblMeaning.Text = "Meaning:";
             // 
             // lblKunyomi
             // 
             this.lblKunyomi.AutoSize = true;
-            this.lblKunyomi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKunyomi.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKunyomi.Location = new System.Drawing.Point(6, 145);
             this.lblKunyomi.Name = "lblKunyomi";
-            this.lblKunyomi.Size = new System.Drawing.Size(74, 16);
+            this.lblKunyomi.Size = new System.Drawing.Size(74, 19);
             this.lblKunyomi.TabIndex = 4;
             this.lblKunyomi.Text = "Kun\'yomi:";
             // 
             // lblOnyomi
             // 
             this.lblOnyomi.AutoSize = true;
-            this.lblOnyomi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOnyomi.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblOnyomi.Location = new System.Drawing.Point(12, 177);
             this.lblOnyomi.Name = "lblOnyomi";
-            this.lblOnyomi.Size = new System.Drawing.Size(68, 16);
+            this.lblOnyomi.Size = new System.Drawing.Size(67, 19);
             this.lblOnyomi.TabIndex = 5;
             this.lblOnyomi.Text = "On\'yomi:";
             // 
@@ -134,10 +134,10 @@
             // lblReadings
             // 
             this.lblReadings.AutoSize = true;
-            this.lblReadings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReadings.Font = new System.Drawing.Font("Noto Sans CJK JP Bold", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReadings.Location = new System.Drawing.Point(63, 111);
             this.lblReadings.Name = "lblReadings";
-            this.lblReadings.Size = new System.Drawing.Size(85, 20);
+            this.lblReadings.Size = new System.Drawing.Size(82, 24);
             this.lblReadings.TabIndex = 9;
             this.lblReadings.Text = "Readings";
             // 
