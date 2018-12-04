@@ -68,10 +68,10 @@
             // lblKanji
             // 
             this.lblKanji.AutoSize = true;
-            this.lblKanji.Font = new System.Drawing.Font("KanjiStrokeOrders", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKanji.Location = new System.Drawing.Point(227, 13);
+            this.lblKanji.Font = new System.Drawing.Font("KanjiStrokeOrders", 128.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKanji.Location = new System.Drawing.Point(229, 13);
             this.lblKanji.Name = "lblKanji";
-            this.lblKanji.Size = new System.Drawing.Size(285, 228);
+            this.lblKanji.Size = new System.Drawing.Size(286, 228);
             this.lblKanji.TabIndex = 2;
             this.lblKanji.Text = "例";
             this.lblKanji.Visible = false;
@@ -108,11 +108,11 @@
             // 
             // txbMeaning
             // 
-            this.txbMeaning.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbMeaning.Font = new System.Drawing.Font("Noto Sans CJK JP Regular", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbMeaning.Location = new System.Drawing.Point(85, 66);
             this.txbMeaning.Name = "txbMeaning";
             this.txbMeaning.ReadOnly = true;
-            this.txbMeaning.Size = new System.Drawing.Size(170, 22);
+            this.txbMeaning.Size = new System.Drawing.Size(170, 27);
             this.txbMeaning.TabIndex = 6;
             // 
             // txbKun
