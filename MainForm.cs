@@ -113,7 +113,7 @@ namespace KanjiTester
                     break;
                 }
                 // If the list already has more than 2/3rds of the total amount of kanji
-                else if (PREVIOUS_RANDOM.Count > (kanji.Count / 3 * 2))
+                else if (PREVIOUS_RANDOM.Count > (kanji.Count / 10 * 9))
                 {
                     // Reset the list.
                     PREVIOUS_RANDOM.Clear();

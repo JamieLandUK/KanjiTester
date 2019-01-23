@@ -68,10 +68,10 @@
             // lblKanji
             // 
             this.lblKanji.AutoSize = true;
-            this.lblKanji.Font = new System.Drawing.Font("KanjiStrokeOrders", 128.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblKanji.Font = new System.Drawing.Font("KanjiStrokeOrders", 128.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKanji.Location = new System.Drawing.Point(229, 13);
             this.lblKanji.Name = "lblKanji";
-            this.lblKanji.Size = new System.Drawing.Size(286, 228);
+            this.lblKanji.Size = new System.Drawing.Size(285, 228);
             this.lblKanji.TabIndex = 2;
             this.lblKanji.Text = "例";
             this.lblKanji.Visible = false;
